@@ -1,0 +1,36 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-24T17:18:42.171Z",
+        "line": 3,
+        "name": "Login to the Application with the valid credentials",
+        "description": "",
+        "id": "login-to-the-application;login-to-the-application-with-the-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8031704100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the username and password and click on the login button",
+            "match": {
+              "location": "Step_Defination_file.Login_stepdefination.enter_the_username_and_password_and_click_on_the_login_button()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Login to the application",
+    "description": "",
+    "id": "login-to-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/login.feature",
+    "tags": []
+  }
+]
